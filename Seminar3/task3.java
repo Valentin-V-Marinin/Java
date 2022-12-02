@@ -1,7 +1,7 @@
 package Java.Seminar3;
 
 /*
- * Seminar3 Task2
+ * Seminar3 Task3
  * Задан целочисленный список ArrayList. Найти минимальное, максимальное и среднее из этого списка.
  */
 
