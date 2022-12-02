@@ -25,7 +25,7 @@ public class task3 {
         double sum = 0;
         int number = 0;
 
-        for (int i = 0; i < NUMBER; i++) {
+        for (int i = 0; i < stat.size(); i++) {
             if (i==0){
                max = stat.get(i); min = stat.get(i);
                sum = stat.get(i); number++;
