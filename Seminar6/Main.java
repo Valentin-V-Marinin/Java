@@ -1,7 +1,13 @@
 import java.io.IOException;
-import java.util.*;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.Set;
 
-public class Notes {
+
+
+public class Main {
     public static void main(String[] args) throws IOException {
 
         try {
@@ -72,12 +78,22 @@ public class Notes {
         note6.setOs("MacOS");
         note6.setPrice(55000.00);
 
+        Notebook note7 = new Notebook();
+        note7.setColor("white");
+        note7.setModel("Huawei");
+        note7.setHdd(256);
+        note7.setOzu(4);
+        note7.setScreen(14);
+        note7.setOs("Windows");
+        note7.setPrice(20000.00);
+
         snb.add(note1);
         snb.add(note2);
         snb.add(note3);
         snb.add(note4);
         snb.add(note5);
         snb.add(note6);
+        snb.add(note7);
 
     }
 
